@@ -3,7 +3,7 @@ name: Generate crossword PDF
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '35 01 * * *'
 
 jobs:
   build-pdf:
